@@ -13,6 +13,11 @@ predicting customer churn, which brings us to a possible solution, developing a 
 * The big picture goal of this project is an increased in business understanding
    - This understanding can better guide our retention efforts, pricing and credit classification.
 
+#### The Data
+* The data consisted of 122,616 rows from the January 2021 to August 2022.
+* After cleaning the data, and filtering for postpaid customer, we were left with 65,244 rows.
+   - Our overall churn rate for these 20 months was 15.66%.
+   - The average monthly recurring price was $44.90
 
 
 
