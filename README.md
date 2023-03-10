@@ -9,6 +9,7 @@ predicting customer churn, which brings us to a possible solution, developing a 
 
 #### The scope of the Machine Learning Model
 * The goal of this model is to viably predict *postpaid* customer churn. 
+    * Indented item
 
 
 
