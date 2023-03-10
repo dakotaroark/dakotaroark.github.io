@@ -9,7 +9,9 @@ predicting customer churn, which brings us to a possible solution, developing a 
 
 #### The scope of the Machine Learning Model
 * The goal of this model is to viably predict *postpaid* customer churn. 
-   - Indented item
+   - Advance pay customer's lack key variables such as credit scores and credit class to accurately predict churn.
+* The big picture goal of this project is an increased in business understanding
+   - This understanding can better guide our retention efforts, pricing and credit classification.
 
 
 
