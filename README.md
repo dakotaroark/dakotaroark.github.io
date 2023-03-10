@@ -21,11 +21,7 @@ predicting customer churn, which brings us to a possible solution, developing a 
 
 
 #### Exploratory Data Analysis Findings
-Flex Balance by credit class: 
-![alt text](https://github.com/dakotaroark/dakotaroark.github.io/blob/main/flex_by_cred_class.png")
-
-Flex Balance Group by Churn: 
-![alt text](https://github.com/dakotaroark/dakotaroark.github.io/blob/main/flex_churn.png")
+![Flex Balance by Credit Class!](C:\Users\dakro\OneDrive\Desktop\Datasets\churnedplots\flex_by_cred_class.png "Look")
 
 #### The Model(s)
 
