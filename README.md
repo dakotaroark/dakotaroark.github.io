@@ -24,6 +24,8 @@ predicting customer churn, which brings us to a possible solution, developing a 
 
 ![alt text](https://raw.githubusercontent.com/dakotaroark/dakotaroark.github.io/main/flex_by_cred_class.png)
 
+(https://github.com/dakotaroark/dakotaroark.github.io/blob/main/test.html)
+
 **THIS IS STILL A WORK IN PROGRESS**
 #### The Model(s)
 
