@@ -22,6 +22,7 @@ predicting customer churn, which brings us to a possible solution, developing a 
 
 #### Exploratory Data Analysis Findings
 
+![alt text](https://raw.githubusercontent.com/dakotaroark/dakotaroark.github.io/main/flex_by_cred_class.png)
 
 #### The Model(s)
 
