@@ -7,7 +7,7 @@ is our customer churn rate, with the ultimate goal to net more adds than those w
 have is that we are not leveraging our customer data to its full potential. We currently lack a viable method of 
 predicting customer churn, which brings us to a possible solution, developing a churn prediction model. 
 
-#### The scope of the Machine Learning Model
+#### The Scope of the Machine Learning Model
 * The goal of this model is to viably predict *postpaid* customer churn. 
    - Advance pay customer's lack key variables such as credit scores and credit class to accurately predict churn.
 * The big picture goal of this project is an increased in business understanding
@@ -16,8 +16,23 @@ predicting customer churn, which brings us to a possible solution, developing a 
 #### The Data
 * The data consisted of 122,616 rows from the January 2021 to August 2022.
 * After cleaning the data, and filtering for postpaid customer, we were left with 65,244 rows.
-   - Our overall churn rate for these 20 months was 15.66%.
+   - Our overall churn rate was 15.66% over the 20 month period.
    - The average monthly recurring price was $44.90
+
+
+#### Exploratory Data Analysis Findings
+
+
+#### The Model(s)
+
+
+#### Selecting the Best Model
+
+
+#### The Result
+
+
+
 
 
 
