@@ -26,6 +26,10 @@ predicting customer churn, which brings us to a possible solution, developing a 
 
 <iframe src="test.html" width="115%" height="500" style="border:1px white;">  </iframe>
 
+| County | Population Proportion | Churn Proportion |
+
+
+
 **THIS IS STILL A WORK IN PROGRESS**
 #### The Model(s)
 
