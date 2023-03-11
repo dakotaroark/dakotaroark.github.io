@@ -37,7 +37,7 @@ predicting customer churn, which brings us to a possible solution, developing a 
 | Rutherford | 3% |5% |
 | Surry | 14% | 14% |
 | Watauga | 9% | 8% |
-| Wilkes | 35% | 33% |                              <iframe src="test2.html" width="50%" height="500" style="border:1px white;">  </iframe> 
+| Wilkes | 35% | 33% |
 
 **THIS IS STILL A WORK IN PROGRESS**
 #### The Model(s)
