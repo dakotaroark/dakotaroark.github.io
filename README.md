@@ -27,17 +27,17 @@ predicting customer churn, which brings us to a possible solution, developing a 
 <iframe src="test.html" width="115%" height="500" style="border:1px white;">  </iframe>
 
 | **County** | **Population Proportion** | **Churn Proportion** |
-| County | Population Proportion | Churn Proportion |
-| County | Population Proportion | Churn Proportion |
-| County | Population Proportion | Churn Proportion |
-| County | Population Proportion | Churn Proportion |
-| County | Population Proportion | Churn Proportion |
-| County | Population Proportion | Churn Proportion |
-| County | Population Proportion | Churn Proportion |
-| County | Population Proportion | Churn Proportion |
-| County | Population Proportion | Churn Proportion |
-| County | Population Proportion | Churn Proportion |
-| County | Population Proportion | Churn Proportion |
+| Alexander | 3% | 5% |
+| Alleghany | 4% | 3% |
+| Ashe | 17% | 11% |
+| Avery | 7% | 5% |
+| Burke | 1% | 2% |
+| Caldwell |5% | 10% |
+| Catawba |2% | 4% |
+| Rutherford | 3% |5% |
+| Surry | 14% | 14% |
+| Watauga | 9% | 8% |
+| Wilkes | 35% | 33% |
 
 **THIS IS STILL A WORK IN PROGRESS**
 #### The Model(s)
