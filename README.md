@@ -55,6 +55,22 @@ predicting customer churn, which brings us to a possible solution, developing a 
    * Number of Flex devices
    * Total Monthly Recurring Cost
 
+* Test Four different Algorithms
+   * K Nearest Neighbor
+   * Random Forest
+   * Decision Tree
+   * Logistic Regression
+* Model Evaluation Metrics:
+   * Each model was evaluated base upon multiple measures 
+   * Confusion matrix for each individual model
+   * Weighted average f1 score for models trained on imbalanced class data
+      * F1 score is calculated by taking the harmonic mean of the models precision and recall.
+         * Recall: Proportion of samples that a the model correctly identifies as belonging to the positive class.
+            * $\TP/TP+FN$
+         * Precision: Proportion of correct positive predictions. The models predicted positive instances that are actually positive. 
+            * $\TP/TP+FP$
+   * Macro average f1 score on training sets that were over and under sampled so that the response class was balanced. 
+
 ## Selecting the Best Model
 
 
