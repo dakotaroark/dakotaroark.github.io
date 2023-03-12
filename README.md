@@ -49,10 +49,10 @@ predicting customer churn, which brings us to a possible solution, developing a 
 
 
 #### The Result
-* **True Positive Rate(TPR)**: .93
+* **True Positive Rate(TPR)**: .94
 * **False Positive Rate(FPR)**: .16
 * **False Negative Rate(FNR)**: .06
-* **True Negative Rate(TNR)**: .83
+* **True Negative Rate(TNR)**: .84
 * **AUC**: .9030
    * Measure of how well the model is able to distinguish between churn and non churn
 <iframe src="roc_auc.html" width="115%" height="500" style="border:1px white;">  </iframe>
