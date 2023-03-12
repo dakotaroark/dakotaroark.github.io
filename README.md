@@ -55,7 +55,7 @@ predicting customer churn, which brings us to a possible solution, developing a 
 * **True Negative Rate(TNR)**: .83
 * **AUC**: .9030
    * Measure of how well the model is able to distinguish between churn and non churn
-
+<iframe src="roc_auc.html" width="115%" height="500" style="border:1px white;">  </iframe>
 ###### Confusion Matrix
 
 
@@ -63,7 +63,10 @@ predicting customer churn, which brings us to a possible solution, developing a 
 | **Predicted Positive** | True Positives | False Positives |
 | **Predicted Negative** | False Negative | True Negatives | 
 
-![alt text](https://raw.githubusercontent.com/dakotaroark/dakotaroark.github.io/main/conf_mat.png)
+|                        | **Actual Positive** | **Actual Negative** |
+| **Predicted Positive** | 10651 | 277 |
+| **Predicted Negative** | 700 | 1421 | 
+
 
 
 
