@@ -65,10 +65,8 @@ predicting customer churn, which brings us to a possible solution, developing a 
    * Confusion matrix for each individual model
    * Weighted average f1 score for models trained on imbalanced class data
       * F1 score is calculated by taking the harmonic mean of the models precision and recall.
-         * Recall: Proportion of samples that a the model correctly identifies as belonging to the positive class.
-            ![Recall equation](https://latex.codecogs.com/gif.latex?%5Cfrac%7BTP%7D%7BTP&plus;FN%7D)
-         * Precision: Proportion of correct positive predictions. The models predicted positive instances that are actually positive. 
-            ![Precision Equation](https://latex.codecogs.com/gif.latex?%5Cfrac%7BTP%7D%7BTP&plus;FP%7D)
+         * Recall: Proportion of samples that a the model correctly identifies as belonging to the positive class. ![Recall equation](https://latex.codecogs.com/gif.latex?%5Cfrac%7BTP%7D%7BTP&plus;FN%7D)
+         * Precision: Proportion of correct positive predictions. The models predicted positive instances that are actually positive.![Precision Equation](https://latex.codecogs.com/gif.latex?%5Cfrac%7BTP%7D%7BTP&plus;FP%7D)
    * Macro average f1 score on training sets that were over and under sampled so that the response class was balanced. 
 
 ## Selecting the Best Model
