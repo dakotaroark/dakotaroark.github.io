@@ -66,9 +66,9 @@ predicting customer churn, which brings us to a possible solution, developing a 
    * Weighted average f1 score for models trained on imbalanced class data
       * F1 score is calculated by taking the harmonic mean of the models precision and recall.
          * Recall: Proportion of samples that a the model correctly identifies as belonging to the positive class.
-            * $\TP/TP+FN$
+            * $$\TP/TP+FN$$
          * Precision: Proportion of correct positive predictions. The models predicted positive instances that are actually positive. 
-            * $\TP/TP+FP$
+            * $$\TP/TP+FP$$
    * Macro average f1 score on training sets that were over and under sampled so that the response class was balanced. 
 
 ## Selecting the Best Model
