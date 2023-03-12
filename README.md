@@ -63,7 +63,7 @@ predicting customer churn, which brings us to a possible solution, developing a 
 | **Predicted Positive** | True Positives | False Positives |
 | **Predicted Negative** | False Negative | True Negatives | 
 
-
+![alt text](https://raw.githubusercontent.com/dakotaroark/dakotaroark.github.io/main/conf_mat.png)
 
 
 
