@@ -80,7 +80,7 @@ predicting customer churn, which brings us to a possible solution, developing a 
 * **False Positive Rate(FPR)**: .16
 * **False Negative Rate(FNR)**: .06
 * **True Negative Rate(TNR)**: .84
-* **Weighted Average F! Score**: .92
+* **Weighted Average F1 Score**: .92
 * **AUC**: .9030
    * Measure of how well the model is able to distinguish between churn and non churn
 
