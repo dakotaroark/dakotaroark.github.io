@@ -1,5 +1,7 @@
 # Churn Prediction
 
+## This page is still a work in progress 
+
 ## What is the current problem and our current solution to this problem?
 Businesses are beginning to utilize machine learning to develop a better understanding of their customer base and 
 this improved understanding will lead to more informed business decisions. One key indicator in business operations 
@@ -41,7 +43,7 @@ predicting customer churn, which brings us to a possible solution, developing a 
 | Watauga | 9% | 8% |
 | Wilkes | 35% | 33% |
 
-**THIS IS STILL A WORK IN PROGRESS**
+
 ## The Model(s)
 * The response variable in this dataset was Churn
    * Encoded as a binary class with non-Churn = 0, churn = 1
