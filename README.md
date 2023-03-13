@@ -98,11 +98,6 @@ predicting customer churn, which brings us to a possible solution, developing a 
 
 
 ## Implications
-* Recall our total Churn Rate over a period of 20 months was 16.27%
-* The total sum of Monthly Recurring cost in that time period was $2,929,673.05
-* The Model caught 84% of churn
-* 84% * 16.27% = 13.68%
-* 13.68% * $2,929,673.05 = $400638.65 in caught loss over a period from January 2021 through August 2022 (20 months)
 
 
 
