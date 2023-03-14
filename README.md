@@ -68,7 +68,7 @@ predicting customer churn, which brings us to a possible solution, developing a 
    * Each model was evaluated base upon multiple measures 
    * Confusion matrix for each individual model
    * Weighted average f1 score for models trained on imbalanced class data
-      * F1 score is calculated by taking the harmonic mean of the models precision and recall.
+      * F1 score is calculated by taking the harmonic mean of the models precision and recall
    * Macro average f1 score on training sets that were over and under sampled so that the response class was balanced. 
 
 ## The Result
