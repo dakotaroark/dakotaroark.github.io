@@ -26,7 +26,7 @@ predicting customer churn, which brings us to a possible solution, developing a 
 
 ![alt text](https://raw.githubusercontent.com/dakotaroark/dakotaroark.github.io/main/flex_by_cred_class.png)
 
-<iframe src="test.html" width="115%" height="500" style="border:1px white;">  </iframe>
+
 
 
 | **County** | **Population Proportion** | **Churn Proportion** |
