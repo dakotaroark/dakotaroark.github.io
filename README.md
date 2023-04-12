@@ -40,6 +40,19 @@ predicting customer churn, which brings us to a possible solution, developing a 
 | Watauga | 9% | 8% |
 | Wilkes | 35% | 33% |
 
+| **County** | **Population Proportion** | **Churn Proportion** |
+| County 1 | 3% | 5% |
+| County 2 | 4% | 3% |
+| County 3 | 17% | 11% |
+| County 4 | 7% | 5% |
+| County 5 | 1% | 2% |
+| County 6 |5% | 10% |
+| County 7 |2% | 4% |
+| County 8 | 3% |5% |
+| County 9 | 14% | 14% |
+| County 10 | 9% | 8% |
+| County 11 | 35% | 33% |
+
 
 ## The Model(s)
 * The response variable in this dataset was Churn
