@@ -78,7 +78,7 @@ predicting customer churn, which brings us to a possible solution, developing a 
    * Measure of how well the model is able to distinguish between churn and non churn
 
 
-![alt text](https://raw.githubusercontent.com/dakotaroark/dakotaroark.github.io/main/roc_curve.png)
+<iframe src="plotly_roc.html" width="115%" height="500" style="border:1px white;">  </iframe>
 
 
 
