@@ -24,21 +24,8 @@ predicting customer churn, which brings us to a possible solution, developing a 
 
 ## Exploratory Data Analysis Findings
 
-<iframe src="test.html" width="115%" height="500" style="border:1px white;">  </iframe>
+<iframe src="dummy_county_churn.html" width="115%" height="500" style="border:1px white;">  </iframe>
 
-
-| **County** | **Population Proportion** | **Churn Proportion** |
-| Alexander | 3% | 5% |
-| Alleghany | 4% | 3% |
-| Ashe | 17% | 11% |
-| Avery | 7% | 5% |
-| Burke | 1% | 2% |
-| Caldwell |5% | 10% |
-| Catawba |2% | 4% |
-| Rutherford | 3% |5% |
-| Surry | 14% | 14% |
-| Watauga | 9% | 8% |
-| Wilkes | 35% | 33% |
 
 | **County** | **Population Proportion** | **Churn Proportion** |
 | County 1 | 3% | 5% |
@@ -93,16 +80,6 @@ predicting customer churn, which brings us to a possible solution, developing a 
 
 ![alt text](https://raw.githubusercontent.com/dakotaroark/dakotaroark.github.io/main/roc_curve.png)
 
-#### Confusion Matrix
-
-
-|                        | **Actual Positive** | **Actual Negative** |
-| **Predicted Positive** | True Positives | False Positives |
-| **Predicted Negative** | False Negative | True Negatives | 
-
-|                        | **Actual Positive** | **Actual Negative** |
-| **Predicted Positive** | 10651 | 277 |
-| **Predicted Negative** | 700 | 1421 | 
 
 
 ## Implications
