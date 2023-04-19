@@ -3,8 +3,7 @@
 ## This page is still a work in progress 
 
 ## What is the current problem and our current solution to this problem?
-Businesses are beginning to utilize machine learning to develop a better understanding of their customer base, and this improved understanding will lead to more informed business decisions. One key indicator in business operations is our customer churn rate, aiming to add more customers than those who churn. Our current problem is that we must leverage our customer data to its full potential. We currently lack a viable method of predicting customer churn, which brings us to a possible solution, developing a churn prediction model.
-
+Businesses are beginning to utilize machine learning to develop a better understanding of their customer base, and this improved understanding will lead to more informed business decisions. One key indicator in business operations is our customer churn rate, aiming to add more customers than those who churn. Our current problem is that we must leverage our customer data to its full potential. We currently lack a viable method of predicting customer churn.
 ## The Scope of the Machine Learning Model
 * The goal of this model is to viably predict *postpaid* customer churn. 
    - Advance pay customer's lack key variables such as credit scores and credit class to accurately predict churn.
