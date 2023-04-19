@@ -1,3 +1,5 @@
+# Churn Model
+
 ## This page is still a work in progress 
 
 ## What is the current problem and our current solution to this problem?
