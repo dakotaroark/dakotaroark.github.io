@@ -24,7 +24,7 @@ predicting customer churn, which brings us to a possible solution, developing a 
 
 ## Exploratory Data Analysis Findings
 
-<iframe src="dummy_county_churn.html" width="115%" height="500" style="border:1px white;">  </iframe>
+<iframe src="dummy_county_churn.html" width="120%" height="500" style="border:1px white;">  </iframe>
 
 
 | **County** | **Population Proportion** | **Churn Proportion** |
@@ -78,7 +78,7 @@ predicting customer churn, which brings us to a possible solution, developing a 
    * Measure of how well the model is able to distinguish between churn and non churn
 
 
-<iframe src="plotly_roc.html" width="115%" height="500" style="border:1px white;">  </iframe>
+<iframe src="plotly_roc.html" width="120%" height="500" style="border:1px white;">  </iframe>
 
 
 
