@@ -1,11 +1,11 @@
 # Churn Model
 
-*On this page, information has been restricted, hidden, and changed from the original analysis. This is to protect company and customer information.*
+*On this page, information has been restricted and changed from the original analysis. This is to protect company and customer information.*
 
 ## What is the current problem and our current solution to this problem?
 Businesses are beginning to utilize machine learning to develop a better understanding of their customer base, and this improved understanding will lead to more informed business decisions. One key indicator in business operations is our customer churn rate, aiming to add more customers than those who churn. Our current problem is that we must leverage our customer data to its full potential. We currently lack a viable method of predicting customer churn.
 ## The Scope of the Machine Learning Project
-* Business Problem: An Absence of proactive methods to identify potential churn in postpaid customers. 
+* Business Problem: An absence of proactive methods to identify potential churn in postpaid customers. 
    - This problem is causing a loss in potential Monthly Recurring Revenue (MRR)
 * The Goal: Identify potential churn so that we can implement proactive outreach, ultimately increasing MRR
    - Preliminary Key metrics: 
@@ -13,7 +13,13 @@ Businesses are beginning to utilize machine learning to develop a better underst
       * Monthly Recurring Cost of the Project Implentation
 
 ## The Data
-* The data consisted of 122,616 rows from the January 2021 to August 2022.
+* The data was retrieved from a Microsoft SQL Server.
+* The data cleaning process included:
+   - Analyzing Null values
+   - Examining outliers and filtering out those due to data entry error
+   - Evaluating explanatory variable distributions
+   - Creating dummy variables
+   - Standardizing quantitative variables
 * After cleaning the data, and filtering for postpaid customer, we were left with 65,244 rows.
    - Our overall churn rate was 16.27% over the 20 month period.
    - The average monthly recurring price was $44.90
