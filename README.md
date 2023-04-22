@@ -1,6 +1,6 @@
 # Churn Model
 
-## This page is still a work in progress 
+*On this page, information has been restricted, hidden, and changed from the original analysis. This is to protect company and customer information.*
 
 ## What is the current problem and our current solution to this problem?
 Businesses are beginning to utilize machine learning to develop a better understanding of their customer base, and this improved understanding will lead to more informed business decisions. One key indicator in business operations is our customer churn rate, aiming to add more customers than those who churn. Our current problem is that we must leverage our customer data to its full potential. We currently lack a viable method of predicting customer churn.
