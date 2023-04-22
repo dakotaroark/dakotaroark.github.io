@@ -5,10 +5,12 @@
 ## What is the current problem and our current solution to this problem?
 Businesses are beginning to utilize machine learning to develop a better understanding of their customer base, and this improved understanding will lead to more informed business decisions. One key indicator in business operations is our customer churn rate, aiming to add more customers than those who churn. Our current problem is that we must leverage our customer data to its full potential. We currently lack a viable method of predicting customer churn.
 ## The Scope of the Machine Learning Model
-* The goal of this model is to viably predict *postpaid* customer churn. 
-   - Advance pay customer's lack key variables such as credit scores and credit class to accurately predict churn.
-* The big picture goal of this project is an increased in business understanding
-   - This understanding can better guide our retention efforts, pricing and credit classification.
+* Business Problem: An Absence of proactive methods to identify potential churn in postpaid customers. 
+   - This problem is causing a loss in potential Monthly Recurring Revenue (MRR)
+* The Goal: Identify potential churn so that we can implement proactive outreach, ultimately increasing MRR
+   - Preliminary Key metrics: 
+      * Monthly Recurring Revenue
+      * Monthly Recurring Cost of the Project Implentation
 
 ## The Data
 * The data consisted of 122,616 rows from the January 2021 to August 2022.
