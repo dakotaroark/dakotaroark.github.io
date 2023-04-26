@@ -3,17 +3,17 @@
 
 ## Churn Analysis and Prediction
 
-*On this page, information has been restricted and changed from the original analysis. This is to protect company and customer information. The machine learning models and evaluation metrics are unchanged*
+*On this page, information has been restricted and changed from the original analysis. This is to protect company and customer information. The machine learning models and evaluation metrics are unchanged.*
 
 ### What is the current problem and our current solution to this problem?
 Businesses are beginning to utilize machine learning to develop a better understanding of their customer base, and this improved understanding will lead to more informed business decisions. One key indicator in business operations is our customer churn rate. Our current problem is that we must leverage our customer data to its full potential. We currently lack a viable method of predicting customer churn.
 ### The Scope of the Machine Learning Project
 * Business Problem: An absence of proactive methods to identify potential churn in postpaid customers. 
    - This problem is causing a loss in potential Monthly Recurring Revenue (MRR)
-* The Goal: Identify potential churn so that we can implement proactive outreach, ultimately increasing MRR
+* The Goal: Identify potential churn so that we can implement proactive outreach, ultimately increasing MRR.
    - Preliminary Key metrics: 
       * Monthly Recurring Revenue
-      * Monthly Recurring Cost of the Project Implentation
+      * Monthly Recurring Cost of the Project implementation
 
 ### The Data
 * The data was retrieved from a Microsoft SQL Server.
@@ -23,20 +23,20 @@ Businesses are beginning to utilize machine learning to develop a better underst
    - Evaluating explanatory variable distributions
    - Creating dummy variables
    - Standardizing quantitative variables
-* After cleaning the data, and filtering for postpaid customer, we were left with 65,244 rows.
+* After cleaning the data, and filtering for postpaid customers, we were left with 65,244 rows.
 
 ### Tools Used
 * For storage and retrieval
    - SQL Script: Microsoft SQL server
 
-* Data Cleaning, Analysis and Model Creation
+* Data Cleaning, Analysis, and Model Creation
    - Python:
       * Pandas, Numpy, Matplotlib, Seaborn, Plotly, Scikit-learn, and SciPy
 
 ### Exploratory Data Analysis Findings
 *Many of the Data Analysis Findings are not included in this section to protect customer data privacy. The below plot and table are a snippet of the analysis, and variables have been masked*
 
-* Some key analysis included:
+* Some key analyses included:
    - Churn rate by credit class and revenue area
    - Monthly Recurring Revenue by account class and Revenue area
    - Cholorpleth map of churn rate
@@ -61,6 +61,7 @@ Businesses are beginning to utilize machine learning to develop a better underst
 ### The Model(s)
 * The response variable (Churn) was created using disconnect information and encoded as a binary variable
    - Churn = 1, non Churn = 0
+  
 * Key predictor variables included:
    * Tenure (Months)
    * Finance Balance
@@ -83,22 +84,24 @@ Businesses are beginning to utilize machine learning to develop a better underst
    * Recall scores for both binary outcomes
    * Confusion matrices
    * Weighted average f1 score for models trained on imbalanced class data
-   * Macro average f1 score on training sets that were over and under sampled so that the response class was balanced. 
-* Used K-Fold cross validation to tune models and hyperparameters
+   * Macro average f1 score on training sets that were over and under-sampled so that the response class was balanced. 
+* Used K-Fold cross-validation to tune models and hyperparameters
 
 ### Results of Final Model
-* **True Positive Rate(TPR)**: .94
-* **False Positive Rate(FPR)**: .16
-* **False Negative Rate(FNR)**: .06
-* **True Negative Rate(TNR)**: .84
-* **Weighted Average F1 Score**: .92
-* **AUC**: .9171
+Given the nature of churn, the response variable "Churn" was imbalanced. Evaluating models solely on classification rate would be misleading.
+* **Sensitivity or True Positive Rate(TPR)**: 0.94
+* **Specificity or True Negative Rate(TNR)**: 0.84
+* **Geometric mean**: 0.88
+* **False Positive Rate(FPR)**: 0.16
+* **False Negative Rate(FNR)**: 0.06
+* **Weighted Average F1 Score**: 0.92
+* **AUC**: 0.9171
 
 
 <iframe src="plotly_roc.html" width="120%" height="500" style="border:1px white;">  </iframe>
 
 
-*Implementation is currently ongoing and model performance is continually monitored to ensure a healthy project life-cycle*
+*Implementation is currently ongoing and model performance is continually monitored to ensure a healthy project life-cycle.*
 
 
 
