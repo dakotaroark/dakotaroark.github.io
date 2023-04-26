@@ -1,10 +1,13 @@
-# Churn Model
 
-*On this page, information has been restricted and changed from the original analysis. This is to protect company and customer information.*
+# Classification Machine Learning Model
 
-## What is the current problem and our current solution to this problem?
-Businesses are beginning to utilize machine learning to develop a better understanding of their customer base, and this improved understanding will lead to more informed business decisions. One key indicator in business operations is our customer churn rate, aiming to add more customers than those who churn. Our current problem is that we must leverage our customer data to its full potential. We currently lack a viable method of predicting customer churn.
-## The Scope of the Machine Learning Project
+## Churn Analysis and Prediction
+
+*On this page, information has been restricted and changed from the original analysis. This is to protect company and customer information. The machine learning models and evaluation metrics are unchanged*
+
+### What is the current problem and our current solution to this problem?
+Businesses are beginning to utilize machine learning to develop a better understanding of their customer base, and this improved understanding will lead to more informed business decisions. One key indicator in business operations is our customer churn rate. Our current problem is that we must leverage our customer data to its full potential. We currently lack a viable method of predicting customer churn.
+### The Scope of the Machine Learning Project
 * Business Problem: An absence of proactive methods to identify potential churn in postpaid customers. 
    - This problem is causing a loss in potential Monthly Recurring Revenue (MRR)
 * The Goal: Identify potential churn so that we can implement proactive outreach, ultimately increasing MRR
@@ -12,7 +15,7 @@ Businesses are beginning to utilize machine learning to develop a better underst
       * Monthly Recurring Revenue
       * Monthly Recurring Cost of the Project Implentation
 
-## The Data
+### The Data
 * The data was retrieved from a Microsoft SQL Server.
 * The data cleaning process included:
    - Analyzing Null values
@@ -21,11 +24,22 @@ Businesses are beginning to utilize machine learning to develop a better underst
    - Creating dummy variables
    - Standardizing quantitative variables
 * After cleaning the data, and filtering for postpaid customer, we were left with 65,244 rows.
-   - Our overall churn rate was 16.27% over the 20 month period.
-   - The average monthly recurring price was $44.90
 
+### Tools Used
+* For storage and retrieval
+   - SQL Script: Microsoft SQL server
 
-## Exploratory Data Analysis Findings
+* Data Cleaning, Analysis and Model Creation
+   - Python:
+      * Pandas, Numpy, Matplotlib, Seaborn, Plotly, Scikit-learn, and SciPy
+
+### Exploratory Data Analysis Findings
+*Many of the Data Analysis Findings are not included in this section to protect customer data privacy. The below plot and table are a snippet of the analysis, and variables have been masked*
+
+* Some key analysis included:
+   - Churn rate by credit class and revenue area
+   - Monthly Recurring Revenue by account class and Revenue area
+   - Cholorpleth map of churn rate
 
 <iframe src="dummy_county_churn.html" width="120%" height="500" style="border:1px white;">  </iframe>
 
@@ -44,16 +58,14 @@ Businesses are beginning to utilize machine learning to develop a better underst
 | County 11 | 35% | 33% | 34% |
 
 
-## The Model(s)
-* The response variable in this dataset was Churn
-   * Encoded as a binary class with non-Churn = 0, churn = 1
+### The Model(s)
+* The response variable (Churn) was created using disconnect information and encoded as a binary variable
+   - Churn = 1, non Churn = 0
 * Key predictor variables included:
    * Tenure (Months)
-   * Credit Class (1:6)
-   * Flex Balance
-   * Initial Credit Score
+   * Finance Balance
+   * Credit Score
    * Recurring Price
-   * Current Credit Score
    * Number of Flex devices
    * Total Monthly Recurring Cost
 
@@ -63,29 +75,30 @@ Businesses are beginning to utilize machine learning to develop a better underst
    * Decision Tree
    * Logistic Regression
 
-## Selecting the Best Model
+### Selecting the Best Model
 * Model Evaluation Metrics:
-   * Each model was evaluated base upon multiple measures 
-   * Confusion matrix for each individual model
+   * Error Classification Rate
+   * Type one error rate (FPR)
+   * Type two error rate (FNR)
+   * Recall scores for both binary outcomes
+   * Confusion matrices
    * Weighted average f1 score for models trained on imbalanced class data
-      * F1 score is calculated by taking the harmonic mean of the models precision and recall
    * Macro average f1 score on training sets that were over and under sampled so that the response class was balanced. 
+* Used K-Fold cross validation to tune models and hyperparameters
 
-## The Result
+### Results of Final Model
 * **True Positive Rate(TPR)**: .94
 * **False Positive Rate(FPR)**: .16
 * **False Negative Rate(FNR)**: .06
 * **True Negative Rate(TNR)**: .84
 * **Weighted Average F1 Score**: .92
-* **AUC**: .9030
-   * Measure of how well the model is able to distinguish between churn and non churn
+* **AUC**: .9171
 
 
 <iframe src="plotly_roc.html" width="120%" height="500" style="border:1px white;">  </iframe>
 
 
-
-## Implications
+*Implementation is currently ongoing and model performance is continually monitored to ensure a healthy project life-cycle*
 
 
 
