@@ -30,18 +30,18 @@ Businesses are beginning to utilize machine learning to develop a better underst
 <iframe src="dummy_county_churn.html" width="120%" height="500" style="border:1px white;">  </iframe>
 
 
-| **County** | **Population Proportion** | **Churn Proportion** |
-| County 1 | 3% | 5% |
-| County 2 | 4% | 3% |
-| County 3 | 17% | 11% |
-| County 4 | 7% | 5% |
-| County 5 | 1% | 2% |
-| County 6 |5% | 10% |
-| County 7 |2% | 4% |
-| County 8 | 3% |5% |
-| County 9 | 14% | 14% |
-| County 10 | 9% | 8% |
-| County 11 | 35% | 33% |
+| **County** | **Population Proportion** | **Churn Proportion** | **MRR Proportion** |
+| County 1 | 3% | 5% | 3% |
+| County 2 | 4% | 3% | 4% |
+| County 3 | 17% | 11% | 17% |
+| County 4 | 7% | 5% | 8% |
+| County 5 | 1% | 2% | 1% | 
+| County 6 |5% | 10% | 4% |
+| County 7 |2% | 4% | 2% |
+| County 8 | 3% |5% | 4% |
+| County 9 | 14% | 14% | 14% |
+| County 10 | 9% | 8% | 9% |
+| County 11 | 35% | 33% | 34% |
 
 
 ## The Model(s)
