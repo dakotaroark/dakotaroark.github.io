@@ -101,6 +101,8 @@ Given the nature of churn, the response variable "Churn" was imbalanced. Evaluat
 <iframe src="plotly_roc.html" width="120%" height="500" style="border:1px white;">  </iframe>
 
 
+#### Implementation
+Productionized model to output at-risk accounts for churn. Provided at-risk accounts to loyalty departments for proactive outreach methods. 
 *Implementation is currently ongoing and model performance is continually monitored to ensure a healthy project life-cycle.*
 
 
