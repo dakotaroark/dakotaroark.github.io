@@ -41,3 +41,14 @@ Analyzed geographic data to identify coverage gaps and inform infrastructure pla
 Developed a reproducible pipeline to clean, validate, and integrate data from multiple sources.
 
 [View Project →](projects/data-integration.md)
+
+
+
+## About Me
+
+I’m currently a Data Scientist with experience applying analytics in a production environment. 
+I’m interested in roles where I can apply statistical rigor and data science to complex, real-world problems.
+
+- [Resume (PDF)](assets/Dakota_Roark_Resume.pdf)
+- [LinkedIn](https://linkedin.com/in/dakota-roark)
+- [GitHub](https://github.com/dakotaroark)
