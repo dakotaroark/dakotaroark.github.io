@@ -42,6 +42,12 @@ Developed a reproducible pipeline to clean, validate, and integrate data from mu
 
 [View Project →](projects/data-integration.md)
 
+---
+
+### - Data Visualization App
+Developed a reproducible pipeline to clean, validate, and integrate data from multiple sources.
+
+[View Project →](projects/data-integration.md)
 
 
 ## About Me
