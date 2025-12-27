@@ -23,7 +23,7 @@ I apply statistical and machine learning methods to real-world datasets to suppo
 
 ## Featured Projects
 
-### - sPredictive Churn Modeling
+### - Predictive Churn Modeling
 Built and evaluated predictive models to understand customer churn and support retention strategies.
 
 [View Project →](projects/churn-modeling.md)
